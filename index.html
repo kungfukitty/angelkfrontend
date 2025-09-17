@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angel Kellogg</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <meta name="description" content="Angel Kellogg — Builder • Creator • Strategist">
+  </head>
+  <body class="bg-[#0a0a0a] text-[#f5f5f5]">
+    <div id="root"></div>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      // Optional runtime overrides (you can edit these in Vercel/Render env)
+      window.__API_BASE = window.__API_BASE || (import.meta.env.VITE_API_BASE || "");
+      window.__HERO_IMAGE = window.__HERO_IMAGE || "";
+      window.__HERO_VIDEO = window.__HERO_VIDEO || "";
+      window.__HERO_TITLE = window.__HERO_TITLE || "";
+      window.__HERO_SUBTITLE = window.__HERO_SUBTITLE || "";
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
