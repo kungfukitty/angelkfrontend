@@ -1,1 +1,0 @@
-export default function MembershipSuccess(){return <div className='p-10'>Success</div>}

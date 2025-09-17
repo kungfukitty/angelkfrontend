@@ -1,1 +1,0 @@
-export default function MembershipCancel(){return <div className='p-10'>Cancel</div>}

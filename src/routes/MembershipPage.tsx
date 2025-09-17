@@ -1,1 +1,0 @@
-export default function MembershipPage(){return <div className='p-10'>Membership</div>}
