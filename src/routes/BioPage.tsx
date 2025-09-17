@@ -1,0 +1,1 @@
+export default function BioPage(){return <div className='p-10'>Bio</div>}

@@ -1,0 +1,1 @@
+export default function BrandsPage(){return <div className='p-10'>Brands</div>}
